@@ -2,9 +2,9 @@ public class Spaces {
     public String index;
     public boolean isWhite;
     public boolean isEmpty;
-    public String figureHere;
+    public Figure figureHere;
 
-    public Spaces(String index, boolean isWhite, boolean isEmpty, String figureHere) {
+    public Spaces(String index, boolean isWhite, boolean isEmpty, Figure figureHere) {
         this.index = index;
         this.isWhite = isWhite;
         this.isEmpty = isEmpty;
@@ -12,7 +12,7 @@ public class Spaces {
 
     }
 
-    public String getFigureHere() {
+    public Figure getFigureHere() {
         return figureHere;
     }
 }
